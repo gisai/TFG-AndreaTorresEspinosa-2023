@@ -1,0 +1,53 @@
+id_restaurant,restaurant_name,restaurant_address,pag_web
+1,Fiesta Gazpacho,"Bulevar Entrepeñas, 24, 15º",www.fiestagazpacho.com
+2,Salsas y Salmon,"Camino Carmen, 550, 4º D",www.salsasysalmon.com
+3,El Solomillo,"Camiño Helena, 21, Bajos",www.elsolomillo.com
+4,El Espanyol,"Avenida Alonso, 022, Entre suelo 6º",www.elespañol.com
+5,Cafe Dali,"Plaza Castaño, 80, 3º B",www.cafedali.com
+6,Paella y Pa el,"Avinguda Bañuelos, 811, 70º C",www.paellaypael.com
+7,El Distrito de las Tapas,"Rúa Esquibel, 93, 62º A",www.distritotapas.com
+8,La Gallinita,"Camino Miguel, 3, 1º 9º",www.lagallinita.com
+9,Ginos,"Plaza Moreno, 851, Bajo 0º",www.ginos.com
+10,VIPS,"Plaça Olivia, 210, Entre suelo 8º",www.vips.com
+11,Fosters Hollywood,"Carrer Rodrigo, 261, 82º 5º",www.fosters.com
+12,Rodilla,"Travessera Jimena, 97, 6º C",www.rodilla.com
+13,SuperTaco,"Avinguda Ander, 405, 3º F",www.supertaco.com
+14,Burger King,"Rúa Montez, 237, 11º B",www.burgerking.com
+15,McDonalds,"Avenida Gonzalo, 063, 90º B",www.mcdonalds.com
+16,Caballero Castellano,"Paseo Ona, 467, 30º F",www.caballerocastellano.com
+17,Sabor Iberia,"Praza Ibarra, 88, 0º E",www.saboriberia.com
+18,Comiendo El Tarro,"Travesía Martí, 73, 48º 5º",www.comiendoeltarro.com
+19,La Carne Trémula,"Camino Calvo, 081, 7º 7º",www.carnetremula.com
+20,El Cántabro,"Rúa Cuellar, 06, 44º A",www.elcantabro.com
+21,Casa Gachupín,"Passeig Hernando, 575, 78º E",www.casagachupin.com
+22,Paella en casa,"Avenida Martos, 44, 50º C",www.paellaencasa.com
+23,Gusto ibérico,"Rúa Villalpando, 42, 4º C",www.gustoiberico.com
+24,Sabores de la tierra,"Rúa Garza, 900, 3º D",www.saboresdelatierra.com
+25,El rincón enchilado,"Travessera Fierro, 4, 5º 2º",www.elrinconenchilado.com
+26,Fogones mexicanos,"Avenida Cazares, 412, 1º B",www.fogonesmexicanos.com
+27,Antojo de burritos,"Plaça Rubén, 1, Ático 1º",www.antojodeburritos.com
+28,La Vinoteca,"Camino Valladares, 8, 3º 8º",www.lavinoteca.com
+29,Mesón de Cándido,"Rúa Ismael, 2, Bajo 4º",www.mesondecandido.com
+30,Cenador de Amós,"Avenida Sofía, 0, 4º C",www.cenadordeamos.com
+31,Come rico y bien,"Ronda Crespo, 531, 95º D",www.comericoybien.com
+32,Rich vegetables,"Avinguda Sandoval, 8, 22º B",www.richvegetables.com
+33,Vegan foodies,"Passeig Maldonado, 8, 0º",www.veganfoodies.com
+34,The best vegetables,"Ronda Sandra, 01, 70º C",www.thebestvegetables.com
+35,Fogones verdes,"Avenida Yeray, 5, 50º C",www.fogonesverdes.com
+36,Vida vegana,"Avenida Gabriel, 4, 61º C",www.vidavegana.com
+37,Veggie Chef,"Ruela Alex, 98, 3º C",www.veggiechief.com
+38,Magic Salad,"Travesía Cabrera, 763, Ático 8º",www.magicsalad.com
+39,La Ensaladera,"Calle Alva, 988, 3º F",www.lanesaladera.com
+40,Vegan's Garden,"Plaça Gabriela, 372, 3º E",www.vegansgarden.com
+41,Organicly green,"Ronda Ariadna, 931, 77º E",www.organiclygreen.com
+42,Beer y Creer,"Ronda César, 998, 5º C",www.beerycreer.com
+43,FaceFood,"Travessera Dario, 20, 6º 0º",www.facefood.com
+44,La Tapilla Sixtina,"Avinguda Velásquez, 91, 7º D",www.latapillasixtina.com
+45,Churrasic Park,"Passeig Álvaro, 71, 94º F",www.churrasicpark.com
+46,Restaurante y Bar Vader,"Camiño Jana, 8, 34º D",www.restauranteybarvader.com
+47,Natural food,"Plaça Solorzano, 636, 64º F",www.naturalfood.com
+48,Freshly foodie,"Passeig Henríquez, 244, Ático 1º",www.freshlyfoodie.com
+49,Come y vive,"Calle Alonso, 048, 26º B",www.comeyvive.com
+50,Cuidate de un bocado,"Ronda Vanegas, 78, 96º B",www.cuidatedeunbocado.com
+66,El Cisne,"Plaza Bejanque, 20, 19005",www.elcisne.es
+67,La Gondola Veneciana,"Calle Fuensanta, 12, 19007",www.gondolaveneciana.com

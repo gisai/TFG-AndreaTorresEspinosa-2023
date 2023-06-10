@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/my_primary"
+    android:padding="16dp"
+    tools:context=".HomeActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title2_bar_layout"
+        >
+        <ImageButton
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:id="@+id/back_to_home_btn"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:layout_alignParentEnd="false"
+            android:layout_centerVertical="false"
+            app:tint="@color/white"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_bar_layout"
+        android:layout_below="@+id/title2_bar_layout">>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/page_title"
+            android:text="Mis alergias"
+            android:textSize="32dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/form_layout"
+        android:layout_below="@+id/title_bar_layout"
+        android:layout_marginVertical="32dp"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/checkBoxLac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:buttonTint="@color/white"
+            android:text="Intolerancia a la lactosa" />
+        <CheckBox
+            android:id="@+id/checkBoxGlu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:buttonTint="@color/white"
+            android:text="Intolerancia al gluten" />
+        <CheckBox
+            android:id="@+id/checkBoxFru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:buttonTint="@color/white"
+            android:text="Intolerancia a la fructosa" />
+        <CheckBox
+            android:id="@+id/checkBoxSac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:buttonTint="@color/white"
+            android:text="Intolerancia a la sacarosa" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:id="@+id/update_allergies_btn"
+            android:text="Actualizar alergias"
+            android:textColor="@color/my_primary"
+            android:layout_marginTop="12dp"
+            android:textSize="16dp"
+            app:backgroundTint="@color/white"
+
+            />
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

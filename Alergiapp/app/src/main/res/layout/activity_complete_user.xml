@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginVertical="16dp"
+    android:layout_marginHorizontal="32dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginVertical="32dp"
+        android:id="@+id/sign_up_icon"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/sign_up"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hello_text"
+        android:layout_below="@id/sign_up_icon"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Antes de continuar..."
+            android:textStyle="bold"
+            android:textSize="32dp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Elija las alergias que padece"
+            android:textStyle="bold"
+            android:textSize="36dp"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/form_layout"
+        android:layout_below="@+id/hello_text"
+        android:layout_marginVertical="32dp"
+        android:orientation="vertical">
+
+
+        <CheckBox
+            android:id="@+id/checkBoxLac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Intolerancia a la lactosa" />
+        <CheckBox
+            android:id="@+id/checkBoxGlu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Intolerancia al gluten" />
+        <CheckBox
+            android:id="@+id/checkBoxFru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Intolerancia a la fructosa" />
+        <CheckBox
+            android:id="@+id/checkBoxSac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Intolerancia a la sacarosa" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:id="@+id/create_account_btn"
+            android:text="Crear usuario"
+            android:layout_marginTop="12dp"
+            android:textSize="16dp"
+
+            />
+        <ProgressBar
+            android:layout_width="24dp"
+            android:layout_height="64dp"
+            android:id="@+id/progress_bar"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:layout_marginTop="12dp"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
